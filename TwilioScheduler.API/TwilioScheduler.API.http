@@ -1,0 +1,6 @@
+@TwilioScheduler.API_HostAddress = http://localhost:5042
+
+GET {{TwilioScheduler.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

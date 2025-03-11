@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwilioScheduler.API", "TwilioScheduler.API\TwilioScheduler.API.csproj", "{07882AFF-D9F9-496C-8E3F-920E415EAA73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwilioScheduler.Domain", "TwilioScheduler.Domain\TwilioScheduler.Domain.csproj", "{AD0AEEEA-C026-4B11-B8BD-C5083DEB2B5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwilioScheduler.Application", "TwilioScheduler.Application\TwilioScheduler.Application.csproj", "{8668DC64-5AA1-489C-8988-4EC6108B2CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwilioScheduler.Infrastructure", "TwilioScheduler.Infrastructure\TwilioScheduler.Infrastructure.csproj", "{DF1F9F74-EDF5-4889-B3AE-657CE521FE1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwilioScheduler.Tests", "TwilioScheduler.Tests\TwilioScheduler.Tests.csproj", "{500056EF-973E-40CB-BBAE-D2AC4E657726}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07882AFF-D9F9-496C-8E3F-920E415EAA73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07882AFF-D9F9-496C-8E3F-920E415EAA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07882AFF-D9F9-496C-8E3F-920E415EAA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07882AFF-D9F9-496C-8E3F-920E415EAA73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0AEEEA-C026-4B11-B8BD-C5083DEB2B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0AEEEA-C026-4B11-B8BD-C5083DEB2B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0AEEEA-C026-4B11-B8BD-C5083DEB2B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0AEEEA-C026-4B11-B8BD-C5083DEB2B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8668DC64-5AA1-489C-8988-4EC6108B2CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8668DC64-5AA1-489C-8988-4EC6108B2CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8668DC64-5AA1-489C-8988-4EC6108B2CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8668DC64-5AA1-489C-8988-4EC6108B2CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF1F9F74-EDF5-4889-B3AE-657CE521FE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1F9F74-EDF5-4889-B3AE-657CE521FE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1F9F74-EDF5-4889-B3AE-657CE521FE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1F9F74-EDF5-4889-B3AE-657CE521FE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{500056EF-973E-40CB-BBAE-D2AC4E657726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{500056EF-973E-40CB-BBAE-D2AC4E657726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{500056EF-973E-40CB-BBAE-D2AC4E657726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{500056EF-973E-40CB-BBAE-D2AC4E657726}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
